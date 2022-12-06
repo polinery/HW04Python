@@ -17,4 +17,5 @@ def pay(time, rate_time, bonus):
     return res
 
 
-print(pay(time, rate_time, bonus))
+payment = pay(time, rate_time, bonus)
+print(payment)
